@@ -9,9 +9,12 @@
 <body>
 <!-- <model-viewer> HTML element -->
 <model-viewer src="test_cubes_anim.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1" >
-    <button slot="ar-button" style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
-        👋 Покажи мне магию!
+    <button slot="ar-button" id="ar-button">
+        Покажи мне магию
     </button>
+    <div id="ar-prompt">
+        <img src="ar_hand_prompt.png">
+    </div>
 </model-viewer>
 <script src="script.js"></script>
 <!-- Loads <model-viewer> for browsers: -->
