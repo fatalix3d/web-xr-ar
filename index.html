@@ -7,16 +7,20 @@
     <link type="text/css" href="./styles.css" rel="stylesheet"/>
 </head>
 <body>
+<header>
+    <h1>Заголовок страницы</h1>
+    <p>Дополнительный текст или описание страницы</p>
+</header>
 <!-- <model-viewer> HTML element -->
 <model-viewer src="test_scn_2.glb" ar ios-src="cubic.usdz" ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1" autoplay>
     <button slot="ar-button" id="ar-button">
-        Покажи мне магию
+        Включить AR
     </button>
 
     <!-- <button id="replace-button">Заменить модель</button> -->
 
     <div id="ar-prompt">
-        <p>1)Нажмите кнопку ниже, чтобы активировать режим AR. Используйте жесты для контроля модели</p>
+        <img src="ar_hand_prompt.png">
     </div>
 </model-viewer>
 <!--<script src="modelReplace.js"></script>-->

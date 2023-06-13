@@ -2,6 +2,12 @@
   display: none;
 }
 
+header {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
 html {
   height: 100%;
 }
